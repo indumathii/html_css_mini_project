@@ -40,13 +40,7 @@ rightbutton.addEventListener("click",function(){
     container.scrollLeft += container.clientWidth;
     
 });
-var span_hover=document.querySelectorAll("span");
-span_hover.forEach(function(event){
-event.addEventListener("mouseover",function(){
-    this.style.background='white';
-    this.style.color='black';
-});
-});
+
 
 var option1 = document.querySelector(".onewayclass");
 var option2 = document.querySelector(".returnclass");
