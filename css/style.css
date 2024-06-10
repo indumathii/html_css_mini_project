@@ -102,7 +102,7 @@ body {
 
 .welcomebanner{
     display: flex;
-    overflow-x: hidden;
+    overflow-x: auto;
     overflow-y: hidden;
     width: 100%;
     white-space: nowrap;
@@ -619,13 +619,13 @@ body {
     padding:50;
     background-color: rgb(234, 12, 12); 
     top:250px;
-    left:1250px;
+    left:1233px;
     height:50px;
     width:30px;
     font-size: 25px;
     position: fixed;
     align-items: center;
-    z-index: 1000;
+    z-index: 5000;
 }
 .button-left:hover, .button-right:hover {
     background-color: #740303;
